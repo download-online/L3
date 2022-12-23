@@ -4,8 +4,8 @@ import ru.jaba.lab.*;
 
 public class Dream extends Circumstances {
 
-    public Dream(){
-        super("сон");
+    public Dream(String name){
+        super(name);
     }
     @Override
     public String isDirection() {

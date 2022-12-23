@@ -4,8 +4,8 @@ import ru.jaba.lab.Circumstances;
 import ru.jaba.lab.Visitable;
 
 public class SunCity extends Circumstances implements Visitable {
-    public SunCity(){
-        super("Солнечный город");
+    public SunCity(String name){
+        super(name);
     }
     @Override
     public String isDirection() {

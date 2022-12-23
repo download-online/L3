@@ -3,8 +3,8 @@ package ru.jaba.lab.location;
 import ru.jaba.lab.Circumstances;
 
 public class Table extends Circumstances {
-    public Table(){
-        super("стол");
+    public Table(String name){
+        super(name);
     }
     @Override
     public String isDirection() {

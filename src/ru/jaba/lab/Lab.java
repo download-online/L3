@@ -8,17 +8,17 @@ import java.util.Objects;
 public class Lab {
 	public static void main(String[] args) {
 		Shortie smarty = new Shortie("Знайка");
-		Dream dream = new Dream();
-		Rocket rocket = new Rocket();
-		Moon moon = new Moon();
+		Dream dream = new Dream("сон");
+		Rocket rocket = new Rocket("ракета");
+		Moon moon = new Moon("Луна");
 		Shortie lunarShorties = new Shortie("коротышки", Amount.PLURAL,Type.LUNAR);
-		Things stuff = new Things();
-		Breakfast breakfast = new Breakfast();
+		Things stuff = new Things("много разных интересных вещей");
+		Breakfast breakfast = new Breakfast("завтрак");
 		Shortie normalShorties = new Shortie("коротышки", Amount.PLURAL, Type.NORMAL);
-		Room room = new Room();
-		Table table = new Table();
+		Room room = new Room("комната");
+		Table table = new Table("стол");
 
-		SunCity city = new SunCity();
+		SunCity city = new SunCity("Солнечный город");
 		String text = city.isDirection();
 		Note note = new Note(3,text);
 		Signature signature = new Signature(smarty);

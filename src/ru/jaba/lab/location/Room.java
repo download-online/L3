@@ -3,8 +3,8 @@ package ru.jaba.lab.location;
 import ru.jaba.lab.*;
 
 public class Room extends Circumstances implements Visitable {
-    public Room() {
-        super("комната");
+    public Room(String name) {
+        super(name);
     }
     @Override
     public String isDirection() {
