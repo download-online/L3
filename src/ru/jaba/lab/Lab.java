@@ -41,8 +41,8 @@ public class Lab {
 		Story[3] = action7;
 		Story[4] = action8;
 
-		for (Action Sentence : Story) {
-			System.out.print(Sentence);
+		for (Action sentence : Story) {
+			System.out.print(sentence);
 		}
 	}
 }
